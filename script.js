@@ -20,9 +20,7 @@
           <p class="product-title">${item.title.slice(0, 20)}</p>
           <p class="product-title">${item.price} $</p>
         </div>
-        <img data-value=${
-          item.id
-        } onClick="addItem(this);" src=${"Add_Cart.png"} class="cart-icon" />
+        <img   src=${"Add_Cart.png"} class="cart-icon" />
         
         </div>
         
