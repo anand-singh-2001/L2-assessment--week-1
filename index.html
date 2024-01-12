@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- TODO: Make the filter section -->
+      <div class="filter-section">
+        <h1>Price</h1>
+        <div class="filters">
+          <div class="checkboxes">
+            <label for="All Price">All Price</label>
+            <input type="radio" id="all_price" name="price" value="All Price" />
+          </div>
+
+          <div class="checkboxes">
+            <label for="0-99.99">$0.00-99.99</label>
+            <input type="radio" id="0-99.99" name="price" value="0-99.99" />
+          </div>
+
+          <div class="checkboxes">
+            <label for="100.00-199.99">$100.00-199.99</label>
+            <input
+              type="radio"
+              id="100.00-199.99"
+              name="price"
+              value="100.00-199.99" />
+          </div>
+
+          <div class="checkboxes">
+            <label for="200.00-299.99">$200.00-299.99</label>
+            <input
+              type="radio"
+              id="200.00-299.99"
+              name="price"
+              value="200.00-299.99" />
+          </div>
+
+          <div class="checkboxes">
+            <label for="300.00-399.99">$300.00-399.99</label>
+            <input
+              type="radio"
+              id="300.00-399.99"
+              name="price"
+              value="300.00-399.99" />
+          </div>
+
+          <div class="checkboxes">
+            <label for="400.00+">$400.00+</label>
+            <input type="radio" id="400.00+" name="price" value="400.00+" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Main sections -->
+      <div class="main-section">
+        <h1>Our Products</h1>
+        <div class="products-section">
+          <!-- <div class="products"></div> -->
+        </div>
+        <hr />
+        <div class="cart-section">
+          <h1>Cart</h1>
+          <div class="cart-products"></div>
+          <hr />
+          <h1>Cart Summary</h1>
+
+          <div class="cart-average">
+            <p>Average Product Price</p>
+            <span class="average-price">30</span>
+          </div>
+          <div class="cart-total">
+            <p>Total</p>
+            <span class="total-price">50</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
